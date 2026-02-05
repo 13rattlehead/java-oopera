@@ -23,7 +23,7 @@ public class Show {
 
     public void printAllActors(Show show) {
         for (Actor actor : show.listOfActors) {
-            System.out.println(actor.getName() + " " + actor.getSurname() + "(" + actor.getHeight() + ")");
+            System.out.println(actor);
         }
     }
 
